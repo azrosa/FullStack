@@ -1,36 +1,3 @@
-# CASOS DE TESTE
-
-# texto = 'body'
-# numero = '10'
-# frase = '<><BODY garbage>body</BODY>'
-
-# texto = 'aBc'
-# numero = '923'
-# frase = '<dont replacethis>abcabc<abcabcde>'
-
-# texto = 'table'
-# numero = '1'
-# frase = '<ta>bLe<TaBlewidth=100></table></ta>'
-
-# texto = 'replace'
-# numero = '323'
-# frase = 'nothing inside'
-
-# texto = 'HI'
-# numero = '667'
-# frase = '92<HI=/><z==//HIb><cHIhi>'
-
-# texto = 'a'
-# numero = '23'
-# frase = '<a B c a>'
-
-# texto = 'b'
-# numero = '2'
-# frase = '<b b abc ab c> Mangojata'
-
-
-# PROGRAMA
-
 def substituirTag(texto, numero, frase):
     cfrase = frase
     resultado = ''
@@ -69,9 +36,16 @@ def substituirTag(texto, numero, frase):
     return resultado
 
 if __name__ == '__main__':
-    texto = input()
-    numero = input()
-    frase = input()
-    resultado = substituirTag(texto, numero, frase)
+    listaFinal = []
 
-    print(resultado)
+    while True:
+        texto = input()
+        if texto == '':
+            break
+        numero = input()
+        frase = input()
+        resultado = substituirTag(texto, numero, frase)
+        listaFinal.append(resultado)
+
+for linha in listaFinal:
+    print(linha)
