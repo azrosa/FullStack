@@ -3,14 +3,12 @@ import re
 def padraoTag(tag):
     padrao = r"^(<[a-zA-Z0-9=\/ ]{0,50}>)$"
     return bool(re.match(padrao, tag))
-def substituirTag(tag):
-    global texto
-    global numero
+
+def substituirTag(texto, numero, tag):
     # ctag = tag[1:len(tag)-1]
     ctag = tag
     if texto.casefold() in tag.casefold():
         t = texto.casefold()
-        # ctag.replace(t,numero)
         count = ctag.casefold().count(t)
         for i in range(count):
             itag = ctag.casefold().find(t)
@@ -19,10 +17,7 @@ def substituirTag(tag):
     # ctag =f'<{ctag}>'
     return ctag
 
-def substituirTexto():
-    global texto
-    global numero
-    global frase
+def substituirTexto(texto, numero, frase):
     cfrase = frase
     resultado = ''
     tag = ''
@@ -37,7 +32,7 @@ def substituirTexto():
             resultado = resultado + cfrase[:iniTag]
             tag = cfrase[iniTag:fimTag+1]
             if padraoTag(tag):
-                ctag = substituirTag(tag)
+                ctag = substituirTag(texto, numero, tag)
                 resultado = resultado + ctag
                 cfrase = cfrase[fimTag+1:]
                 iniTag = cfrase.find('<')
@@ -54,9 +49,18 @@ def substituirTexto():
         count += 1
     return resultado
 
+def main():
+    while True:
+        try:
+            texto = input()
+            numero = input()
+            frase = input()
+
+            resultado = substituirTexto(texto, numero, frase)
+            print(resultado)
+
+        except EOFError:
+            break
+
 if __name__ == '__main__':
-    texto = input()
-    numero = input()
-    frase = input()
-    resultado = substituirTexto()
-    print(resultado)
+    main()
