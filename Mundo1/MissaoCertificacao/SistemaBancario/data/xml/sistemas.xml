@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sistemas>
+    <sistema>
+        <codigo>000000000001000</codigo>
+        <nome>Sistema</nome>
+    </sistema>
+    <sistema>
+        <codigo>000000000002000</codigo>
+        <nome>Perfil de Acesso</nome>
+    </sistema>
+    <sistema>
+        <codigo>000000000003000</codigo>
+        <nome>Matriz SOD</nome>
+    </sistema>
+    <sistema>
+        <codigo>000000000004000</codigo>
+        <nome>Usuario</nome>
+    </sistema>
+    <sistema>
+        <codigo>000000000005000</codigo>
+        <nome>Perfil de Usuario</nome>
+    </sistema>
+    <sistema>
+        <codigo>000000000006000</codigo>
+        <nome>Agencia</nome>
+    </sistema>
+    <sistema>
+        <codigo>000000000007000</codigo>
+        <nome>Cliente</nome>
+    </sistema>
+    <sistema>
+        <codigo>000000000008000</codigo>
+        <nome>Conta</nome>
+    </sistema>
+    <sistema>
+        <codigo>000000000009000</codigo>
+        <nome>Transacao</nome>
+    </sistema>
+</sistemas>

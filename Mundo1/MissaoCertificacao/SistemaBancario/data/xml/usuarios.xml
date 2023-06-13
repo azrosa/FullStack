@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<usuarios>
+    <usuario>
+        <cpf>68491356940</cpf>
+        <nome>admin</nome>
+        <senha>8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918</senha>
+        <nivel_acesso>4</nivel_acesso>
+    </usuario>
+    <usuario>
+        <cpf>55629690094</cpf>
+        <nome>gerente</nome>
+        <senha>98ec4ee87e461aa980d5ef58d68042c4a5b9b1d957bd04eac40f8b2fc582816a</senha>
+        <nivel_acesso>3</nivel_acesso>
+    </usuario>
+    <usuario>
+        <cpf>58754553652</cpf>
+        <nome>escriturario</nome>
+        <senha>b0627c01bb778e11935eea345e3b97e39b895e252798463c7d6ab3a138883a29</senha>
+        <nivel_acesso>2</nivel_acesso>
+    </usuario>
+    <usuario>
+        <cpf>72848915480</cpf>
+        <nome>caixa</nome>
+        <senha>e3d7b71d78b2fcdf81575b07832bd28ac63949df11aa6f55dbba726333b77780</senha>
+        <nivel_acesso>1</nivel_acesso>
+    </usuario>
+</usuarios>

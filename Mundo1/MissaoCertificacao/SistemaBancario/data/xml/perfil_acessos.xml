@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<perfil_acessos>
+    <perfil_acesso>
+        <nome>cadastrar_sistema</nome>
+        <cod_sistema>000000000001000</cod_sistema>
+        <descricao>Cadastrar sistema</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>listar_sistemas</nome>
+        <cod_sistema>000000000001000</cod_sistema>
+        <descricao>Listar sistemas</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>consultar_sistema</nome>
+        <cod_sistema>000000000001000</cod_sistema>
+        <descricao>Consultar sistema</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>editar_sistema</nome>
+        <cod_sistema>000000000001000</cod_sistema>
+        <descricao>Editar sistema</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>cadastrar_p_acesso</nome>
+        <cod_sistema>000000000002000</cod_sistema>
+        <descricao>Cadastrar sistema</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>listar_p_acesso</nome>
+        <cod_sistema>000000000002000</cod_sistema>
+        <descricao>Listar perfis de acesso</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>consultar_p_acesso</nome>
+        <cod_sistema>000000000002000</cod_sistema>
+        <descricao>Consultar perfil de acesso</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>editar_p_acesso</nome>
+        <cod_sistema>000000000002000</cod_sistema>
+        <descricao>Editar perfil de acesso</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>cadastrar_conflito</nome>
+        <cod_sistema>000000000003000</cod_sistema>
+        <descricao>Cadastrar conflito</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>listar_matriz_sod</nome>
+        <cod_sistema>000000000003000</cod_sistema>
+        <descricao>Listar matriz SOD</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>consultar_conflito</nome>
+        <cod_sistema>000000000003000</cod_sistema>
+        <descricao>Consultar conflito</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>cadastrar_usuario</nome>
+        <cod_sistema>000000000004000</cod_sistema>
+        <descricao>Cadastrar usuário</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>listar_usuarios</nome>
+        <cod_sistema>000000000004000</cod_sistema>
+        <descricao>Listar usuários</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>consultar_usuario</nome>
+        <cod_sistema>000000000004000</cod_sistema>
+        <descricao>Consultar usuário</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>editar_usuario</nome>
+        <cod_sistema>000000000004000</cod_sistema>
+        <descricao>Editar usuário</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>cadastrar_p_usuario</nome>
+        <cod_sistema>000000000005000</cod_sistema>
+        <descricao>Cadastrar perfil de usuário</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>listar_p_usuarios</nome>
+        <cod_sistema>000000000005000</cod_sistema>
+        <descricao>Listar perfis de usuário</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>consultar_p_usuario</nome>
+        <cod_sistema>000000000005000</cod_sistema>
+        <descricao>Consultar perfil de usuário</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>editar_p_usuario</nome>
+        <cod_sistema>000000000005000</cod_sistema>
+        <descricao>Editar perfil de usuário</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>cadastrar_agencia</nome>
+        <cod_sistema>000000000006000</cod_sistema>
+        <descricao>Cadastrar agência</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>listar_agencias</nome>
+        <cod_sistema>000000000006000</cod_sistema>
+        <descricao>Listar agências</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>consultar_agencia</nome>
+        <cod_sistema>000000000006000</cod_sistema>
+        <descricao>Consultar agência</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>editar_agencia</nome>
+        <cod_sistema>000000000006000</cod_sistema>
+        <descricao>Editar agência</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>cadastrar_cliente</nome>
+        <cod_sistema>000000000007000</cod_sistema>
+        <descricao>Cadastrar cliente</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>listar_clientes</nome>
+        <cod_sistema>000000000007000</cod_sistema>
+        <descricao>Listar clientes</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>consultar_cliente</nome>
+        <cod_sistema>000000000007000</cod_sistema>
+        <descricao>Consultar cliente</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>editar_cliente</nome>
+        <cod_sistema>000000000007000</cod_sistema>
+        <descricao>Editar cliente</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>cadastrar_conta</nome>
+        <cod_sistema>000000000008000</cod_sistema>
+        <descricao>Cadastrar conta</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>listar_contas</nome>
+        <cod_sistema>000000000008000</cod_sistema>
+        <descricao>Listar contas</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>consultar_conta</nome>
+        <cod_sistema>000000000008000</cod_sistema>
+        <descricao>Consultar conta</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>editar_conta</nome>
+        <cod_sistema>000000000008000</cod_sistema>
+        <descricao>Editar conta</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>cadastrar_transacao</nome>
+        <cod_sistema>000000000009000</cod_sistema>
+        <descricao>Cadastrar transação</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>listar_transacoes</nome>
+        <cod_sistema>000000000009000</cod_sistema>
+        <descricao>Listar transações</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>consultar_transacao</nome>
+        <cod_sistema>000000000009000</cod_sistema>
+        <descricao>Consultar transação</descricao>
+    </perfil_acesso>
+    <perfil_acesso>
+        <nome>editar_transacao</nome>
+        <cod_sistema>000000000009000</cod_sistema>
+        <descricao>Editar transação</descricao>
+    </perfil_acesso>
+</perfil_acessos>

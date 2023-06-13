@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<agencias>
+    <agencia>
+        <numero>1799</numero>
+        <cidade>Araraquara</cidade>
+    </agencia>
+    <agencia>
+        <numero>2063</numero>
+        <cidade>Brusque</cidade>
+    </agencia>
+    <agencia>
+        <numero>2770</numero>
+        <cidade>Castelo</cidade>
+    </agencia>
+    <agencia>
+        <numero>1659</numero>
+        <cidade>Diadema</cidade>
+    </agencia>
+    <agencia>
+        <numero>4408</numero>
+        <cidade>El Dorado</cidade>
+    </agencia>
+    <agencia>
+        <numero>3318</numero>
+        <cidade>Fátima</cidade>
+    </agencia>
+    <agencia>
+        <numero>4030</numero>
+        <cidade>Guaratiba</cidade>
+    </agencia>
+    <agencia>
+        <numero>4844</numero>
+        <cidade>Higienópolis</cidade>
+    </agencia>
+    <agencia>
+        <numero>0202</numero>
+        <cidade>Indianápolis</cidade>
+    </agencia>
+    <agencia>
+        <numero>3615</numero>
+        <cidade>Jacarépaguá</cidade>
+    </agencia>
+</agencias>

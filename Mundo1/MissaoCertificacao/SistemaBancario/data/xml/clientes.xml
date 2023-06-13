@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<clientes>
+    <cliente>
+        <cpf>70564219975</cpf>
+        <nome>Nuno Miguel</nome>
+        <endereco>Rua Azul</endereco>
+        <contato>912111111</contato>
+    </cliente>
+    <cliente>
+        <cpf>87912608257</cpf>
+        <nome>Rui Miguel</nome>
+        <endereco>Rua Branca</endereco>
+        <contato>912222222</contato>
+    </cliente>
+    <cliente>
+        <cpf>77217967252</cpf>
+        <nome>Joana Goncalves</nome>
+        <endereco>Rua Lilás</endereco>
+        <contato>912333333</contato>
+    </cliente>
+    <cliente>
+        <cpf>51051501989</cpf>
+        <nome>Tiago Barbosa</nome>
+        <endereco>Rua Rosa</endereco>
+        <contato>912444444</contato>
+    </cliente>
+    <cliente>
+        <cpf>37422965584</cpf>
+        <nome>Marisa Trindade</nome>
+        <endereco>Rua Vermelha</endereco>
+        <contato>912555555</contato>
+    </cliente>
+</clientes>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<tipo_contas>
+    <tipo_conta>
+        <tipo>Corrente</tipo>
+    </tipo_conta>
+    <tipo_conta>
+        <tipo>Poupança</tipo>
+    </tipo_conta>
+    <tipo_conta>
+        <tipo>Salário</tipo>
+    </tipo_conta>
+</tipo_contas>

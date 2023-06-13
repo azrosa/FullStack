@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<limite_contas>
+    <limite_conta>
+        <categoria>Ouro</categoria>
+        <valor>10000</valor>
+    </limite_conta>
+    <limite_conta>
+        <categoria>Prata</categoria>
+        <valor>5000</valor>
+    </limite_conta>
+    <limite_conta>
+        <categoria>Bronze</categoria>
+        <valor>2000</valor>
+    </limite_conta>
+</limite_contas>
